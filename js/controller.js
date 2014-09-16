@@ -6,7 +6,6 @@ angular.module('daisy.controller', [])
         $scope.nav = function (which) {
             $scope.active = {
                 home: '',
-                hire: '',
                 about: '',
                 contact: ''
             };
@@ -15,9 +14,6 @@ angular.module('daisy.controller', [])
         $scope.nav('home');
     })
     .controller('HomeCtrl', function ($scope) {
-
-    })
-    .controller('HireCtrl', function ($scope) {
 
     })
     .controller('AboutCtrl', function ($scope) {
