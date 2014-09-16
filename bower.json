@@ -1,0 +1,24 @@
+{
+  "name": "daisyy.net",
+  "version": "1.0.0",
+  "homepage": "http://daisyy.net",
+  "authors": [
+    "Jackong <JackongC@gmail.com>"
+  ],
+  "description": "official web site",
+  "keywords": [
+    "daisyy.net"
+  ],
+  "license": "MIT",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bootstrap": "~3.2.0"
+  }
+}
