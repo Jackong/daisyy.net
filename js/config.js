@@ -8,6 +8,18 @@ angular.module('daisy.config', ['ngRoute', 'daisy.controller'])
                 templateUrl: 'partial/home.html',
                 controller: 'HomeCtrl'
             })
+            .when('/tools', {
+                templateUrl: 'partial/tools.html',
+                controller: 'ToolsCtrl'
+            })
+            .when('/games', {
+                templateUrl: 'partial/games.html',
+                controller: 'GamesCtrl'
+            })
+            .when('/apps', {
+                templateUrl: 'partial/apps.html',
+                controller: 'AppsCtrl'
+            })
             .when('/about', {
                 templateUrl: 'partial/about.html',
                 controller: 'AboutCtrl'
